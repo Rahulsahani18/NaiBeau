@@ -1,0 +1,57 @@
+.Footer{
+    background-color: black;
+}
+.companyLogo{
+    height: 2rem;
+}
+.footerCol{
+    text-decoration: none;
+    color: white;
+}
+.footerCol:hover{
+    color: red;
+}
+.row{
+     --bs-gutter-x: 0rem;
+}
+.ftGoogleBtn{
+    height: 100%;
+    width: 100%;
+}
+.ftAppleBtn{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .Footer8{
+    /* margin-left: 8rem; */
+    text-align: center;
+   }
+    .companyLogo{
+    /* margin-left: 8rem; */
+   }
+   .footerCol{
+    font-size: 20px;
+   }
+   .footerHed{
+    font-size: 25px;
+
+   }
+   .ftGoogleBtn{ 
+   height: 85%;
+ 
+    
+   } 
+
+    .ftAppleBtn{
+    height: 50%;
+   }
+   .GetonlineApp{
+    font-size: 30px;
+    padding-top: 2rem;
+   }  
+   .footericons{
+    text-align: center;
+    margin-top: -2rem;
+   }
+}

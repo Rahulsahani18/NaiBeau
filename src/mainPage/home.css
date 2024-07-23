@@ -1,0 +1,111 @@
+
+  
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+ .RedImgRow{
+     position: relative; 
+    overflow: hidden; 
+    width: 100%;
+    --bs-gutter-x: 0rem;
+    height: 100%;
+} 
+
+.MainText{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    font-style: italic;
+}
+.RedBackgrondImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+    z-index: -1; 
+    
+}
+.Left_Text{
+   color: white;
+
+   
+}
+.BarberPic{
+height: 100%;
+width: 100%;
+}
+.btn-danger{
+    border-radius:7px ;
+}
+.iphonePic{
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    margin-top: -2rem;
+}
+
+
+@media screen and (max-width:768px){
+    .RedBackgrondImg{
+       
+       height: 100%;
+       width: 100%;
+   } 
+    .MainText{
+        padding-left: 1rem;
+        padding-top: 2rem;
+       
+    }
+   .BarberPic{
+
+   display: none;
+   
+   }
+   .exploreBtn{
+    text-align: center;
+    /* margin-right: 3rem; */
+    width: 100%;
+    margin-bottom: 3rem;
+   }
+   .input-group1{
+    /* margin-left: 0rem; */
+    width: 100%;
+    padding: 2rem;
+   }
+  .iphonePic{
+   padding-left: 6rem;
+   height: 20rem;
+   width: 20rem;
+  }
+  .GoogleBtn{
+
+   text-align: center;
+   height: 3rem;
+   padding-left: 3rem;
+   margin-left: auto;
+  }
+  .AppleBtn{
+    text-align: center;
+     height: 3rem; 
+  }
+  .contactbtn{
+    margin-right: 1rem !important;
+  }
+
+}
+
+.Frame{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Frame8Row{
+    background-color: bisque;
+    height: 100%;
+}
+  .ContactUsRow{
+    background-color: rgb(222, 224, 224);
+  }
+  

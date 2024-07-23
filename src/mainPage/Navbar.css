@@ -1,0 +1,41 @@
+
+.navbar {
+    background-color: black;
+    padding-right: 20px;
+    
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.nav-link.active {
+  color: red;
+}
+
+  
+.navLogo {
+    color: red;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+    display: block;
+}
+
+
+  
+@media screen and (max-width:500px) {
+    .navbar {
+
+        padding-left: 20px;
+    }
+
+    .navbar-brand {
+        margin-left: -50px;
+    }
+
+}
